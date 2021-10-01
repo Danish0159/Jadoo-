@@ -1,0 +1,45 @@
+:root {
+  --white: #ffffff;
+  --primary-1: #def0f1;
+  --primary-2: #3aafaa;
+  --primary-3: #2a7a78;
+  --primary-4: #17242b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: white;
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  color: #212832 !important;
+}
+
+/* ////////////////////// */
+/* Footer  */
+/* ////////////////////// */
+
+footer {
+  background-color: yellow;
+  margin-top: 20rem;
+}
