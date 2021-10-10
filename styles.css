@@ -1,3 +1,11 @@
+/* .nav-item {
+  margin-left: 2rem;
+}
+
+.nav-link {
+  color: #212832 !important;
+} */
+
 :root {
   --white: #ffffff;
   --primary-1: #def0f1;
@@ -28,11 +36,104 @@ body {
 }
 
 /* ////////////////////// */
+/* Global Styling */
+/* ////////////////////// */
+
+h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1e1d4c;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #5e6282;
+  margin: 0 !important;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: #14183e;
+  font-size: 5rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+.section-margin-bottom {
+  margin-bottom: 12rem;
+}
+
+/* ////////////////////// */
+/* Services  Section */
+/* ////////////////////// */
+.services > .container {
+  margin-top: 6rem;
+}
+
+.services__service {
+  padding: 0rem 4.9rem;
+}
+
+.services__passages {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #5e6282;
+}
+
+/* ////////////////////// */
+/* Destinations Section */
+/* ////////////////////// */
+.destinations > .container {
+  margin-top: 6rem;
+}
+
+.destinations__img {
+  width: 100% !important;
+  height: 337px !important;
+  border-radius: 24px 24px 0% 0%;
+}
+
+.Decor {
+  position: relative;
+}
+
+.Decor::before {
+  position: absolute;
+  content: " ";
+  background: url(./images/Decore.png) no-repeat scroll 0 0 / 100% 100%;
+  z-index: -1;
+  top: 111px;
+  right: -36px;
+  width: 80px;
+  height: 213px;
+}
+
+@media only screen and (max-width: 768px) {
+  .Decor::before {
+    display: none;
+  }
+}
+
+/* ////////////////////// */
+/* Booking  Section */
+/* ////////////////////// */
+#booking__title {
+  /* font-size: 4rem !important; */
+}
+
+/* ////////////////////// */
 /* Subscribe Section */
 /* ////////////////////// */
 .subscribe {
   font-family: "Poppins", sans-serif;
-  margin: 12rem 0rem;
 }
 
 .subscribe__img {
@@ -124,13 +225,6 @@ body {
     margin-top: 1.4rem;
   }
 }
-/* .nav-item {
-  margin-left: 2rem;
-}
-
-.nav-link {
-  color: #212832 !important;
-} */
 
 header {
   min-height: 100vh;
