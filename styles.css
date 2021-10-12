@@ -125,10 +125,28 @@ h1 {
 /* ////////////////////// */
 /* Booking  Section */
 /* ////////////////////// */
-#booking__title {
-  /* font-size: 4rem !important; */
+.booking__rightTitle {
+  color: #080809;
 }
 
+.booking__content {
+  position: relative;
+}
+
+.booking__card {
+  /* background-color: rgb(233, 173, 173); */
+  position: absolute;
+  top: 57px;
+  left: 195px;
+}
+
+.booking__percentage {
+  color: #8a79df;
+}
+
+.booking__right {
+  background-image: url(./images/bookinkBackground.png);
+}
 /* ////////////////////// */
 /* Subscribe Section */
 /* ////////////////////// */
