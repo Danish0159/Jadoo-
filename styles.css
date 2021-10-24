@@ -125,6 +125,28 @@ h1 {
 /* ////////////////////// */
 /* Booking  Section */
 /* ////////////////////// */
+.booking__right {
+  box-shadow: 0 0 20px rgb(190, 187, 187);
+  border-radius: 8px;
+  background-color: #fff;
+  margin-left: 8%;
+  position: relative;
+}
+
+.booking__right::before {
+  position: absolute;
+  content: " ";
+  background: url(./images/bookinkBackground.png) no-repeat scroll 0 0 / 100%
+    100%;
+  z-index: -1;
+  width: 551px;
+  height: 597px;
+}
+
+.booking__img img {
+  width: 100%;
+}
+
 .booking__rightTitle {
   color: #080809;
 }
@@ -134,19 +156,31 @@ h1 {
 }
 
 .booking__card {
-  /* background-color: rgb(233, 173, 173); */
   position: absolute;
-  top: 57px;
-  left: 195px;
+  top: 92px;
+  left: 215px;
+  padding: 1rem 0.5rem;
+  box-shadow: 0 0 20px rgb(190, 187, 187);
+  border-radius: 8px;
+  background-color: #fff;
 }
 
 .booking__percentage {
   color: #8a79df;
 }
 
-.booking__right {
-  background-image: url(./images/bookinkBackground.png);
+@media only screen and (max-width: 1365px) {
+  .booking__card {
+    display: none;
+  }
+  .booking__right::before {
+    display: none;
+  }
+  .booking__right {
+    margin-left: 0;
+  }
 }
+
 /* ////////////////////// */
 /* Subscribe Section */
 /* ////////////////////// */
@@ -242,10 +276,6 @@ h1 {
     padding-left: 2.2rem;
     margin-top: 1.4rem;
   }
-}
-
-header {
-  min-height: 100vh;
 }
 
 /* ////////////////////// */
