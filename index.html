@@ -13,21 +13,18 @@
     <!-- Google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet"> -->
     <!-- Title -->
     <title>Jadoo - Travel, enjoy and live a new</title>
 </head>
 
 <body>
-
+    <!-- ===============================================
+                        Navigation
+    ================================================  -->
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
 
@@ -57,8 +54,9 @@
                         <a class="nav-link" href="#">Login</a>
                     </li>
                     <li class="nav-item">
-                        <button type="button" class="btn btn-outline-dark">Sign Up</button>
+                        <a id="btn-small" class="btn-small nav-link">Sign Up</a>
                     </li>
+
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
@@ -74,31 +72,37 @@
         </div>
     </nav>
 
+    <!-- ===============================================
+                  Hero Section
+         ================================================  -->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="hero__tagline pb-5">Best Destinations around the world</h1>
+                    <h1 class="hero__title pb-5">Travel, enjoy <br> and live a new life</h1>
+                    <p class="hero__passages">Built Wicket longer admire do barton vanity itself do in it.
+                        Preferred
+                        to sportsmen it
+                        engrossed listening. Park gate
+                        sell they west hard for the.</p>
 
-
-    <!-- Hero Section -->
-    <div class="container col-xxl-8 px-4 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <img src="/images/hero.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
-                    height="500" loading="lazy">
-            </div>
-            <div class="col-lg-6">
-                <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-                <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
-                    most
-                    popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
-                    extensive prebuilt components, and powerful JavaScript plugins.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                    <div class="hero__button">
+                        <a id="btn-small" class="btn-small nav-link">Sign Up</a>
+                        <a id="btn-small" class="btn-small nav-link">Sign Up</a>
+                    </div>
+                </div>
+                <div class=" col-lg-6">
+                    <img src="/images/hero.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700"
+                        height="500" loading="lazy">
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-
-    <!-- Services Section -->
+    <!-- ===============================================
+                  Services Section
+         ================================================  -->
     <section class="services text-center section-margin-bottom">
         <h4 class="pb-4">Category</h4>
         <h1>We Offer Best Services</h1>
@@ -130,13 +134,16 @@
                         aviation services for
                         military customers.</p>
                 </div>
-
             </div>
         </div>
     </section>
 
 
-    <!-- Destinations Section -->
+
+    <!-- ===============================================
+                          Destinations Section
+        ================================================  -->
+
     <section class="destinations text-center section-margin-bottom">
         <h4 class="pb-4">Top Selling</h4>
         <h1>Top Destinations</h1>
@@ -146,33 +153,26 @@
                 <div class="col-md-6 col-lg-4 px-4">
                     <img class="destinations__img"
                         src="https://images.unsplash.com/photo-1529260830199-42c24126f198?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=876&q=80">
-
                     <div class="px-3 pt-4 pb-5">
-
                         <div class="d-flex justify-content-between">
                             <h4>Rome, Italy</h4>
                             <h4>$5,42k</h4>
                         </div>
-
                         <div class="d-flex align-items-center mt-4">
                             <img src="./images/flight.png" alt="">
                             <h4 class="mx-3">10 Days Trip</h4>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="col-md-6 col-lg-4 px-4">
                     <img class="destinations__img"
                         src="https://images.unsplash.com/photo-1546885692-8e7c1b59da2c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80">
-
                     <div class="px-3 pt-4 pb-5">
-
                         <div class="d-flex justify-content-between">
                             <h4>London, UK</h4>
                             <h4>$4.2k</h4>
                         </div>
-
                         <div class="d-flex align-items-center mt-4">
                             <img src="./images/flight.png" alt="">
                             <h4 class="mx-3">12 Days Trip</h4>
@@ -184,12 +184,10 @@
                     <img class="destinations__img"
                         src="https://images.unsplash.com/photo-1542379950-b3fc716c16f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80">
                     <div class="px-3 pt-4 pb-5">
-
                         <div class="d-flex justify-content-between">
                             <h4>Full Europe</h4>
                             <h4>$15k</h4>
                         </div>
-
                         <div class="d-flex align-items-center mt-4">
                             <img src="./images/flight.png" alt="">
                             <h4 class="mx-3">26 Days Trip</h4>
@@ -200,14 +198,12 @@
         </div>
     </section>
 
-
-    <!-- Booking Section -->
+    <!-- ===============================================
+                Booking Section
+    ================================================ -->
     <section class="booking section-margin-bottom">
-
         <div class="container">
             <div class="row">
-
-                <!--  -->
                 <div class="col-md-6 px-4">
                     <h4 class="pb-4">Easy and Fast</h4>
                     <h1 class="pb-5">Book Your Next Trip In 3 Easy Steps
@@ -240,7 +236,6 @@
                     </div>
                 </div>
 
-                <!--  -->
                 <div class="col-11 m-auto col-md-4 p-5 px-4 booking__right">
                     <div class="booking__img">
                         <img src="./images/booking.png" alt="booking">
@@ -268,13 +263,14 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
 
-    <!-- Comapnies Logo section -->
+    <!-- ===============================================
+                       Comapnies Logo section
+    ================================================ -->
     <section class=" companies section-margin-bottom">
         <div class="container">
             <div class="row d-none d-md-flex align-items-center justify-content-between">
@@ -293,8 +289,9 @@
     </section>
 
 
-
-    <!-- Subscribe Section -->
+    <!-- ===============================================
+         Subscribe Section 
+        ================================================ -->
     <section class="subscribe section-margin-bottom">
         <div class="container subscribe__img">
             <h2 class="subscribe__title">Subscribe to get information, latest news and other
@@ -306,8 +303,9 @@
         </div>
     </section>
 
-
-    <!-- Footer -->
+    <!-- ===============================================
+             Footer 
+        ================================================ -->
     <footer>
         <div class="container text-center text-md-start">
             <div class="row text-center text-md-start">
@@ -317,7 +315,6 @@
                     <p class="m-auto m-md-0 footer__description">Book your trip in minute, get full
                         Control for much longer.</p>
                 </div>
-
                 <div class="col-md-2">
                     <h3 class="footer__headings">Company</h3>
                     <ul class="footer__ul list-unstyled">
@@ -326,7 +323,6 @@
                         <li><a href="#">Mobile</a></li>
                     </ul>
                 </div>
-
                 <div class="col-md-2">
                     <h3 class="footer__headings">Contact</h3>
                     <ul class="footer__ul list-unstyled">
@@ -359,11 +355,9 @@
                 </div>
             </div>
         </div>
-
         <div class="d-flex justify-content-center">
             <p class="footer__rights">All rights reserved@jadoo.co</p>
         </div>
-
     </footer>
 
 
